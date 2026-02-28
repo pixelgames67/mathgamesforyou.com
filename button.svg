@@ -1,0 +1,11 @@
+<svg width="150" height="55" viewBox="0 0 150 55" fill="none" xmlns="http://www.w3.org">
+  <style>
+    .btn { fill: #FF0000; transition: 0.3s; cursor: pointer; }
+    .btn:hover { fill: #008000; }
+    .txt { fill: white; pointer-events: none; }
+    /* Note: Hover only works if the SVG is viewed directly or via object/embed, 
+       but GitHub treats it as an image. This works in many browsers when linked! */
+  </style>
+  <rect class="btn" width="150" height="55" rx="8" />
+  <text class="txt" x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold">ENTER</text>
+</svg>
